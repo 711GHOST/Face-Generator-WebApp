@@ -7,8 +7,8 @@ The Streamlit app is implemented in only 150 lines of Python and demonstrates th
 
 
 
-How to run this demo
-The demo requires Python 3.6 or 3.7 (The version of TensorFlow we use is not supported in Python 3.8+). We suggest creating a new virtual environment, then running:
+## How to run this demo
+The demo requires Python 3.6 or 3.7 (the version of TensorFlow we use is not supported in Python 3.8+). We suggest creating a new virtual environment, then running:
 
       git clone https://github.com/streamlit/demo-face-gan.git
       cd demo-face-gan
@@ -16,5 +16,5 @@ The demo requires Python 3.6 or 3.7 (The version of TensorFlow we use is not sup
       poetry run streamlit run streamlit_app.py
 
       
-Model Bias
+## Model Bias
 Playing with the sliders, you will find biases that exist in this model. For example, moving the Smiling slider can turn a face from masculine to feminine or from lighter skin to darker. Apps like these that allow you to visually inspect model inputs help you find these biases so you can address them in your model before it's put into production.
