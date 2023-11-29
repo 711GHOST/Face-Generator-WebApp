@@ -1,7 +1,9 @@
 # Face-Generator-WebApp
 Face Generator WebApp using Generative Adversarial Networks (GANS). Pre-trained models used: PG-GAN and TL-GAN.
 
-This project highlights Streamlit's new st.experimental_memo() and st.experimental_singleton() features with an app that calls on TensorFlow to generate photorealistic faces, using Nvidia's Progressive Growing of GANs and Shaobo Guan's Transparent Latent-space GAN method for tuning the output face's characteristics. For more information, check out the tutorial on Towards Data Science.
+This project highlights Streamlit's new st.experimental_memo() and st.experimental_singleton() features with an app that calls on TensorFlow to generate photorealistic faces, using Nvidia's Progressive Growing of GANs and Shaobo Guan's Transparent Latent-space GAN method for tuning the output face's characteristics.
+
+![In-use Animation](https://github.com/711GHOST/Face-Generator-WebApp/blob/06a1754b5cae212b79c55fcbc6cd7a8bd67a0b7e/GAN-demo.gif?raw=true "In-use Animation")
 
 The Streamlit app is implemented in only 150 lines of Python and demonstrates the wide new range of objects that can be used safely and efficiently in Streamlit apps.
 
